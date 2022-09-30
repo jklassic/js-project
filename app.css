@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    background-color: rgb(8, 8, 37);
+    border: 10px solid olive;
+    width: 55vw;
+    height: 500px;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+    color: olive;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stopwatch div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    width: 90%;
+}
+
+
+.btnReset {
+    background-color: rgb(182, 182, 6);
+    color: white;
+}
